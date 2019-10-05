@@ -7,7 +7,13 @@
 module.exports = {
   siteName: 'Chopra Lab',
   transformers: {
-    yaml: {}
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+      plugins: [
+        // ...global plugins
+      ]
   },
   plugins: [
     {
