@@ -1,0 +1,20 @@
+{
+  "name": "chopralab",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/transformer-yaml": "^0.2.1",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-netlify-cms": "^1.0.9",
+    "netlify-cms": "^2.9.7"
+  },
+  "devDependencies": {
+    "@gridsome/source-filesystem": "^0.6.0",
+    "@gridsome/transformer-json": "^0.2.1",
+    "gridsome-plugin-tailwindcss": "^2.2.26"
+  }
+}
